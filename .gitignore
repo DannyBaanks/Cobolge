@@ -1,0 +1,8 @@
+bin/
+*.exe
+*.o
+*.obj
+*.dll
+*.class
+__pycache__/
+.pytest_cache/
