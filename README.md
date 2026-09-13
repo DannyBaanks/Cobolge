@@ -21,3 +21,10 @@ The step-17 snapshot is byte-identical to the canonical fixture with SHA-256
 `29372AAD12CAA5AFD340328D6C9AFB51408A3A60A477BDA94A671A0DD79A2FE4`.
 
 See `tests/run_tests.ps1` for the repeatable checks.
+
+## Unshackled 3^19
+
+The complete local 3^19 runtime is implemented in `src/cobolge19.cob`.
+`src/cobolge19_codec.cob` is its small standalone positional codec probe.
+The minimum `ubO`/`Z` execution gate passes; broad differential corpus coverage
+remains pending.
