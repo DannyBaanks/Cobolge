@@ -21,7 +21,7 @@ $ErrorActionPreference = 'Stop'
 $env:COB_CONFIG_DIR = $CobolConfigDir
 $env:Path = "$MsysBin;$env:Path"
 
-$root = "C:\Development\ISyCo Git\Cobolge"
+$root = Split-Path -Parent $PSScriptRoot
 $exe = "$root\bin\cobolge.exe"
 $fixtures = "$root\tests\fixtures"
 $prog = "$fixtures\hello_classic.mal"
